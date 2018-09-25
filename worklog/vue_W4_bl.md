@@ -1,6 +1,5 @@
 ﻿# vue_W4_bl
 
-标签（空格分隔）： vue_note
 
 ---
 
@@ -8,7 +7,7 @@ Vue.js is a library for building web interfaces. It provides bindings between da
 
 
 ---
-##REACTIVITY
+## REACTIVITY
 Vue.js allows declarative rendering of data into DOM with a concise template syntax.
 
 ```eg
@@ -33,7 +32,7 @@ Open the browser's JavaScript console and modify the `app.message` value, the ab
 Vue has converted the object and made it **reactive**.
 
 ---
-##COMPONENTS
+## COMPONENTS
 When it comes to structuring complex interfaces, Vue takes an approach that is very similar to React: it’s components all the way down. Let’s make our example a reusable component:
 
 ```eg
@@ -103,8 +102,8 @@ var app7 = new Vue({
 result:
 
 > 1. 蔬菜
-2. 奶酪
-3. 随便其它什么人吃的东西
+> 2. 奶酪
+> 3. 随便其它什么人吃的东西
 
 
 In summary, vue.js is an approachable, versatile and performant Javascript framework.
