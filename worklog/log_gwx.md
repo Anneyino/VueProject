@@ -25,3 +25,43 @@ Also, you may get confused about what incrementally adoptable is. According to E
 
 
 In a word, we can build our project depending on our own needs in the most efficient and lightweight way.
+
+## What is Vuex?
+
+Vuex is a **state management pattern + library** for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion. It also integrates with Vue's official [devtools extension](https://github.com/vuejs/vue-devtools) to provide advanced features such as zero-config time-travel debugging and state snapshot export / import.
+
+#### What is a "State Management Pattern"?
+
+```javascript
+new Vue({
+  // state
+  data (){
+    return {
+      count: 0
+    }
+  },
+  // view
+  template: `
+		<div>{{ count}}</div>
+`,
+  // actions
+  methods: {
+    increment (){
+      this.count++
+    }
+  }
+})
+```
+
+It is a self-contained app with the following parts:
+
+- The **state**, which is the source of truth that drives our app;
+- The **view**, which is just a declarative mapping of the **state**;
+- The **actions**, which are the possible ways the state could change in reaction to user inputs from the **view**.
+
+This is a quite simple concept called "one-way data flow" or "Unidirectional data flow".
+
+tbc...
+
+
+
