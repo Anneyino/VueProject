@@ -61,7 +61,20 @@ It is a self-contained app with the following parts:
 
 This is a quite simple concept called "one-way data flow" or "Unidirectional data flow".
 
-tbc...
+But when it comes to **multiple components that share common state**, the simplicity breaks down:
 
+- Multioke views may depend on the same piece of state.
+- Actions from different views may need to mutate the same piece of state
 
+So we can just extract the shared state out of the components, and manage it in a global singleton. In addition, by defining and separating the concepts involved in state management and enforcing certain rules, we also give our code more structure and maintainability.
+
+This is the basic idea behind Vuex, inspired by [Flux](https://facebook.github.io/flux/docs/overview.html), [Redux](http://redux.js.org/) and [The Elm Architecture](https://guide.elm-lang.org/architecture/).
+
+![](./images/image2.png)
+
+However, if we are going to build a simple app, there is no need for us to use Vuex. A simple [store pattern](https://vuejs.org/v2/guide/state-management.html#Simple-State-Management-from-Scratch) may be all we need. If we are building a large-scale SPA or something, Vuex will be the choice for you.
+
+> you'll know when you need them.
+
+For further study, [What is Vuex?](https://vuex.vuejs.org) may help.
 
