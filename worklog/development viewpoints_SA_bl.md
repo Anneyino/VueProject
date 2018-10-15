@@ -11,7 +11,8 @@ tbc
 This section will explain how the directory of Vue.js is structured and coordinated via configuration management and how it is built and tested regularly. The overall structure of the directory hierarchy of Vue.js is organized as follows.
 
 **Table-** *source code structure of Vue.js*
-|Directory|Descriptions|
+
+| Directory | Descriptions |
 |-|-|
 |scripts|contains build-related scripts and configuration files.|
 |dist|contains built files for distribution. Note this directory is only updated when a release happens; they do not reflect the latest changes in development branches.|
@@ -29,7 +30,7 @@ This section will explain how the directory of Vue.js is structured and coordina
 Here are the subdirectories of `/src`
 
 **Table-** *source code structure of Vue/src*
-|Directory|File|Description|
+| Directory | File | Description |
 |-|-|-|
 |compiler|| contains code for the template-to-render-function compiler|
 ||parser|converts template strings to element ASTs|
