@@ -1,6 +1,5 @@
 ﻿# development viewpoints_SA_bl
 
-标签（空格分隔）： vue
 
 ---
 
