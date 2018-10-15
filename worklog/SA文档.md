@@ -1,8 +1,9 @@
-﻿#Vue - The Progressive Front-end Framework#
+﻿#Vue - The Progressive Front-end Framework
 ![001.png-15.2kB][1]
 
 
   ***By [Evan You][2], [defcc][3] and [Gu Yiling][4]***
+  
 ***1.Abstract***
 ---
 
@@ -24,7 +25,7 @@ Also, you may get confused about what incrementally adoptable is. According to E
 4. Fourth Stage: when the project comes to a large scale, **vuex** is a reliable state management pattern + library to help us to handle with it.
 5. Fifth Stage: to optimize your websites or to improve their ranking in SEO, try to build a Server-Side render architecture.
 
-![./images/image1.png][5]
+![image1.png-57.8kB][5]
 
 <!--image from the tutorial video-->
 
@@ -41,9 +42,12 @@ In a word, with the help of Vue, we can build our project depending on our own n
 
 
 
+ 
+
+
   [1]: http://static.zybuluo.com/Anneyino/8g9wbgpuirf5wt3gpifb3pne/001.png
   [2]: https://github.com/yyx990803/
   [3]: https://github.com/defcc/
   [4]: https://github.com/Justineo/
-  [5]: http://static.zybuluo.com/Anneyino/eg361i11b0pul8kgvzn8w14z/image1.png
-  [6]: http://static.zybuluo.com/Anneyino/rd23v2xo4caaggh2nw1lplq9/stucture.jpg
+  [5]: http://static.zybuluo.com/Anneyino/bve3bx7ytfrrng9au5j9i61t/image1.png
+  [6]: http://static.zybuluo.com/Anneyino/1uqighyru55p12k5v2f6xclw/stucture.jpg
