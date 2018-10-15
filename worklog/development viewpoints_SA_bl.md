@@ -3,11 +3,13 @@
 
 ---
 
-#Development View
+# Development View
 The development viewpoint describes the architecture that supports the software development process. It aims to provide an overview of the structure of Vue.js for stakeholders like production engineers, software developers and testers. This viewpoints concerns about module organization, conmmon processing,  standardization of design and testing, instrument and codeline organization.
-##Module Organization
+
+## Module Organization
 tbc
-##Codeline Models
+
+## Codeline Models
 This section will explain how the directory of Vue.js is structured and coordinated via configuration management and how it is built and tested regularly. The overall structure of the directory hierarchy of Vue.js is organized as follows.
 
 **Table-** *source code structure of Vue.js*
@@ -30,8 +32,9 @@ This section will explain how the directory of Vue.js is structured and coordina
 Here are the subdirectories of `/src`
 
 **Table-** *source code structure of Vue/src*
+
 | Directory | File | Description |
-|-|-|-|
+| - | - | - |
 |compiler|| contains code for the template-to-render-function compiler|
 ||parser|converts template strings to element ASTs|
 ||optimizer.js|detects static trees for vdom render optimization|
@@ -43,7 +46,7 @@ Here are the subdirectories of `/src`
 ||global-api| as the name suggests.|
 ||components|universal abstract components. Currently keep-alive is the only one.|
 
-##Concurrency Viewpoint
+## Concurrency Viewpoint
 The concurrency viewpoint describes the concurrency structure of the system, mapping functional elements to concurrency units to clearly identify the parts of the system that can execute concurrently, and shows how this is coordinated and controlled.This involves defining the parts of the system that can run at the same time and how this is controlled (e.g., defining how the system’s functional elements are packaged into operating system processes and how the processes coordinate their execution). It is depicted via system-level concurrency modesl and state models.
 
 **Figure-** *operating mechanism diagram of Vue.js*
