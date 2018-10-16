@@ -2,8 +2,7 @@ Vue - The Progressive Front-end Framework
 ===
 ![](./images/image0.png)
 
-
-  ***By [Evan You][2], [defcc][3] and [Gu Yiling][4]***
+​                                                                                           ——***By [Evan You](https://github.com/yyx990803)***
 
 ***1.Abstract***
 ---
