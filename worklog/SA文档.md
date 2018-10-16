@@ -93,12 +93,12 @@ There are 2 ways to support Vue.js. Funds donated via Patreon go directly to sup
 
 ### Competitors 
 
-| ![](./images/image_angular.png) | ![](./images/image_react.png) | ![](./images/image_dojo.png) | ![](./images/image_ember.png) |
-| ------------------------------- | ----------------------------- | ---------------------------- | ----------------------------- |
-|                                 |                               |                              |                               |
+| ![](./images/image_angular.png)               | ![](./images/image_react.png)              | ![](./images/image_dojo.png)         | ![](./images/image_ember.png)                |
+| --------------------------------------------- | ------------------------------------------ | ------------------------------------ | -------------------------------------------- |
+| [Angular](https://github.com/angular/angular) | [React](https://github.com/facebook/react) | [Dojo](https://github.com/dojo/dojo) | [Ember](https://github.com/emberjs/ember.js) |
 
 - Angular: prevalent and competitive in market, with abundant tools.
-- React + Redux: relatively simple and concentrated, easy to learn.
+- React: relatively simple and concentrated, easy to learn.
 - Dojo: focus on interact, fill the vacancy in other frameworks.
 - Ember: a somewhat stubborn framework, nearly one way to create application. Backward Compatible.
 - Vue.js: progressive framework, concise and reasonable, easy to comprehend and build.
