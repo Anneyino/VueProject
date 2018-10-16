@@ -102,14 +102,14 @@ There are 2 ways to support Vue.js. Funds donated via Patreon go directly to sup
 - Ember: a somewhat stubborn framework, nearly one way to create application. Backward Compatible.
 - Vue.js: progressive framework, concise and reasonable, easy to comprehend and build.
 
-***3.ContextView***
+***4.ContextView***
 ---
 ### What is a ContextView?
 It describes the relationships, dependencies, and interactions between the system and its environment (the people, systems, and external entities with which it interacts). Many architecture descriptions focus on views that model the system’s internal structures, data elements, interactions, and operation. Architects tend to assume that the “outward-facing” information — the system’s runtime context, its scope and requirements, and so forth – is clearly and unambiguously defined elsewhere. However, you often need to include a definition of the system’s context as part of your architectural description.
 
-In order to display the basic relationship between Vue.js outside templates, here is the Context View about Vue.js framework, drawn by ourselves. 
+In order to display the basic relationship between Vue.js outside templates, here is the Context View about Vue.js framework, drawn by ourselves：
 
-![](./images/ContextView.jpg)
+![should be a context view](./images/ContextView.jpg)
 
 ### Brief Explaination about the figure
 As a progressive javascript framework, Vue.js is supposed to use javascript, html, css language to achieve the visual effect. Due to the markup language, this framework can be run on Windows, Mac OS, Linux to display the front end, which makes it become very popular in the developer. You can see from the Vue.js readme.md to check that there are many supporters, couple of them in China are Greekbang and GITEE.COM, just because the main developer Evan You is a ethnic Chinese. Also the Chinese language support in the forum is very well. There are many learners and developers in the formal forum to answer the issues and come up with some ideas. Vue.js has lots of combine framework, like the BV, the Muse UI, the Vuetify.js and so on. They improve the Vue.js performance and add some additional function towards the framework.
