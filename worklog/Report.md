@@ -1,4 +1,4 @@
-﻿Vue - The Progressive Front-end Framework
+Vue - The Progressive Front-end Framework
 ===
 ![](./images/image0.png)
 
@@ -101,6 +101,14 @@ There are 2 ways to support Vue.js. Funds donated via Patreon go directly to sup
 - Dojo: focus on interact, fill the vacancy in other frameworks.
 - Ember: a somewhat stubborn framework, nearly one way to create application. Backward Compatible.
 - Vue.js: progressive framework, concise and reasonable, easy to comprehend and build.
+
+### Power-Interest Grid
+
+A stakeholders matrix shows which strategies to use. In this project, as you can see, the developer, Evan You and his team has the most closest relation to Vue.js. In addition, his work needs fund so that some companies support and use it closely. Also, users can discuss on the forum whenever they have some problems. Since Vue.js is based on JavaScript and published on GitHub, that is why I put them into this grid. As for other front-end framework like React, they are competitors so they keep informed of what Vue.js is going on.
+
+![](./images/Power-Interest.png)
+
+
 
 ***4.ContextView***
 ---
