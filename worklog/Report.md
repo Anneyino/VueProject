@@ -1,4 +1,4 @@
-Vue - The Progressive Front-end Framework
+﻿Vue - The Progressive Front-end Framework
 ===
 ![](./images/image0.png)
 
@@ -217,5 +217,20 @@ And here are some common causes of technical debt including:
 
 Nothing is perfect, and there are always heated debates that which framework is the best one for developers and so on. Vue.js and other front-end frameworks are also without exception to arouse the discussion. Some users pointed out that, although Vue.js has lots of advantages such as reactivity, high availability, fast speed, light-weighted, good scalability etc., it does disappoint them in some ways. For example, its component boilerplate is not so satisfying, some codes can be more simplified. What's more, as I mentioned before, Vuex is a state management pattern for Vue.js, but its ambiguity in architecture really confused users, they do not know where the codes belong to. Ultimately, even Vue.js has the most detailed official docs, its lacking advanced or higher level tutorials or docs or books about it.
 
-What I've talked about is not the comprehensive questions Vue.js has. But Evan You and other developers are working for the project to promote it. Vue.js has established its [forum](https://forum.vuejs.org) for those from all over the world using Vue.js. Additionally, Evan You has issued the Vue 3.0 version and published the Vue CLI 3.0 version with important updates. Vue.js is on its way to be a better framework.     
+For example, the lifecycle of instance of Vue has changed a lot from Vue1.0 to Vue2.0, and here is the difference:
+![](./images/Vue1.png)
+![](./images/Vue2.png)
+
+What I've talked about is not the comprehensive questions Vue.js has. But Evan You and other developers are working for the project to promote it. Vue.js has established its [forum](https://forum.vuejs.org) for those from all over the world using Vue.js. Additionally, Evan You has issued the Vue 3.0 version and published the Vue CLI 3.0 version with important updates. Vue.js is on its way to be a better framework.
+
+
+
+## ***7. Evolution Perspective***
+
+Even if we have emphasized a lot about the magic power of Vue framework, we can't ignore it that vue still has many fields to be improved. As a new comming developing technic, in order to chase up with other mature framework like ReactNative, Vue has created the official technical proposal such as Vuex and VueRouter, which is supposed to be a good way. However, if you want to search for substitution of Vuex and VueRouter as your framework, you will find it difficult to seek out a result which updates frequently with completed documents. All of Vue projects on the markets aims at front-end UI, and other types of projects are in a very small number. So maybe in the future, Vue can also make some improvement on Non-UI components to diversify its functions.
+
+Another pressing problem is the education process. Vue doesn't lack of textbooks for beginners, but high-level developing textbooks and documents are desperately in need.
+Since Vue is very flexible, to achieve the same requirement, developers can have a lot of kinds of design patterns, which make projects hard to maintain. If vue can define more strict grammer, the maintaining section can be easier to carry on.
+
+Finally and most importantly, Vue lacks of IDE supported on the market. Eclipse and IEDA can't run vue projects without install many complex components of Node.js and Vue framework, which makes the developing for beginners hard to carry on. In the future, we are looking forward to see that Vue framework can be accepted by more and more IDE tools and plays an important role in Web and UI design.
 
