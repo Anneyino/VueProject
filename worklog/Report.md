@@ -203,6 +203,8 @@ It has been learned that vue is data binding through data hijacking. The most co
 
 ![MVVM binding](https://ss0.baidu.com/6LVYsjip0QIZ8Aqbn9fN2DC/timg?pa&quality=100&size=b640_10000&sec=1539610034&di=cb9e3d59ca132b8eaa4df322389a33c8&ref=http%3A%2F%2Fwww%2Ebitscn%2Ecom%2Fschool%2FJavascript%2F201612%2F763846%2Ehtml&src=http%3A%2F%2Fimg%2Ebitscn%2Ecom%2Fupimg%2Fallimg%2Fc161216%2F14QUaZ0%2D4AI%2Ejpg)
 
+
+
 ## ***6. Functional View***
 ### Overview about Vue.js ###
 As a progressive framwork about Vue.js, it can be divided into several parts. The source code is mainly about **Declarative Rendering**, **Component System**, **Client-Side Routing**. Also, there are many frameworks(like vuex) based on the Vue core source code, making some extend implements. These outside framework can be divided into **Large Scale State Management**, **Build System**.
@@ -223,9 +225,9 @@ As a progressive framwork about Vue.js, it can be divided into several parts. Th
 
 The following picture show the specific details about how the rendering flow works. In fact, up to the Vue.js 2.0 version, it use the Declarative & Reactive Rendering to implement the visual effect. To be more specific, the State component receive the information(request) from the User Input, and then render the corresponding View component. View in this way is just a declarative mapping from the state. However, it can interact as the front end with the User and pass the reactive request to the back end again.
  
-![]("./images/FunctionalView1.jpg")
+![should be a FunctionalView1.jpg](./images/FunctionalView1.jpg)
 
-![]("./images/FunctionalView2.jpg")
+![should be a FunctionalView2.jpg](./images/FunctionalView2.jpg)
 
 
 Besides, the Vue.js provides us the API to achieve the server-side rendering, using renderToString method or renderToStream method. Both of them are written in the ./dist/vue.common.js, you can check it and even modify it as you want.
@@ -234,11 +236,11 @@ Besides, the Vue.js provides us the API to achieve the server-side rendering, us
 
 Most Apps UIs can be broken down into components. Every component is responsible for managing a piece of DOM. Therefore, the entire UI can be abstracted into a tree of components. Between each component, there is a communication mechanism, the child compoenent use **events out** to emit the events, and the parent component use **props in** to pass props toward the child. 
 
-![should be a component.png]("./images/component.png")
+![should be a component.png](./images/component.png)
 
 Here is a simple example of Todo demo using components
 
-![should be a Todo.png]("./images/Todo.png")
+![should be a Todo.png](./images/Todo.png)
 
 
 ### Client-Side Routing ###
@@ -261,7 +263,7 @@ Here we use [Vuex](https://github.com/vuejs/vuex) to manage the large scale stat
 
 Here is a simple example in the document to show the State Management:
 
-![should be a StateManagement1.png]("./images/StateManagement1.png")
+![should be a StateManagement1.png](./images/StateManagement1.png)
 
 It is a self-contained app with the following parts:
 
@@ -270,11 +272,11 @@ The view, which is just a declarative mapping of the state;
 The actions, which are the possible ways the state could change in reaction to user inputs from the view.
 This is an extremely simple representation of the concept of "one-way data flow":
 
-![should be a state.png]("./images/state.png")
+![should be a state.png](./images/state.png)
 
 The following picture the behind logic about how the entire State Management works:
 
-![should be a StateManagement2.png]("./images/StateManagement2.png")
+![should be a StateManagement2.png](./images/StateManagement2.png)
 
 
 ### Build System ###
@@ -287,7 +289,7 @@ The following command show how to install the build system:
 	npm install
 	npm run dev
 
-![should be a SingleFile.png]("./images/SingleFile.png")
+![should be a SingleFile.png](./images/SingleFile.png)
 
 As for the single file vue components, it contains several characters:
 
@@ -300,7 +302,9 @@ As for the single file vue components, it contains several characters:
 
 After we run the Vue.js program in the local server, we can use the outside software to make supportions toward the Vue.js project. Like the Official Chrome, it provides the DevTools Extension for developer to see the detail content and reaction state in Vue.js:
 
-![should be a Chrome.png]("./images/Chrome.png")
+![should be a Chrome.png](./images/Chrome.png)
+
+
 
 ## ***7. Technical Debt***
 
