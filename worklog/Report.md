@@ -274,7 +274,7 @@ This is an extremely simple representation of the concept of "one-way data flow"
 
 ![should be a state.png](./images/state.png)
 
-The following picture the behind logic about how the entire State Management works:
+The following picture shows the behind logic about how the entire State Management works:
 
 ![should be a StateManagement2.png](./images/StateManagement2.png)
 
