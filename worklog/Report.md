@@ -205,108 +205,7 @@ It has been learned that vue is data binding through data hijacking. The most co
 
 
 
-## ***6. Functional View***
-### Overview about Vue.js ###
-As a progressive framwork about Vue.js, it can be divided into several parts. The source code is mainly about **Declarative Rendering**, **Component System**, **Client-Side Routing**. Also, there are many frameworks(like vuex) based on the Vue core source code, making some extend implements. These outside framework can be divided into **Large Scale State Management**, **Build System**.
-
-![](./images/image1.png)
-
-> When compared to other frameworks, vue.js has its own pros and cons. The main advantage is that it is very light weight and easy to use. vue.js doses score higher in some benchmarks when comes to performance. vue.js offers us to build reactive interfaces. It also provides a large set of directives. Data binding, template logic, event handling and much more.
-> 
-> 25+ Best Vue.Js Frameworks:[https://cssauthor.com/vuejs-frameworks/](https://cssauthor.com/vuejs-frameworks/)
-
-### Declarative Rendering ###
-
->Originally, the light weight framework used to adopt DOM component to achieve the rendering. But there are some problem with the DOM:
->
-1.  Re-rendering entire chunks of DOM is expensive and disruptive
-2.  Imperatively keeping the DOM in sync with the state is tedious and error-prone
-
-
-The following picture show the specific details about how the rendering flow works. In fact, up to the Vue.js 2.0 version, it use the Declarative & Reactive Rendering to implement the visual effect. To be more specific, the State component receive the information(request) from the User Input, and then render the corresponding View component. View in this way is just a declarative mapping from the state. However, it can interact as the front end with the User and pass the reactive request to the back end again.
- 
-![should be a FunctionalView1.jpg](./images/FunctionalView1.jpg)
-
-![should be a FunctionalView2.jpg](./images/FunctionalView2.jpg)
-
-
-Besides, the Vue.js provides us the API to achieve the server-side rendering, using renderToString method or renderToStream method. Both of them are written in the ./dist/vue.common.js, you can check it and even modify it as you want.
-
-### Component System ###
-
-Most Apps UIs can be broken down into components. Every component is responsible for managing a piece of DOM. Therefore, the entire UI can be abstracted into a tree of components. Between each component, there is a communication mechanism, the child compoenent use **events out** to emit the events, and the parent component use **props in** to pass props toward the child. 
-
-![should be a component.png](./images/component.png)
-
-Here is a simple example of Todo demo using components
-
-![should be a Todo.png](./images/Todo.png)
-
-
-### Client-Side Routing ###
-
-This function is implemented by the [vue-router](https://github.com/vuejs/vue-router). Vue-router is the official router for Vue.js. It deeply integrates with Vue.js core to make building Single Page Applications with Vue.js a breeze. Features include:
-
-- Nested route/view mapping
-- Modular, component-based router configuration
-- Route params, query, wildcards
-- View transition effects powered by Vue.js' transition system
-- Fine-grained navigation control
-- Links with automatic active CSS classes
-- HTML5 history mode or hash mode, with auto-fallback in IE9
-- Customizable Scroll Behavior
-
-
-### Large Scale State Management ###
-
-Here we use [Vuex](https://github.com/vuejs/vuex) to manage the large scale state. What is Vuex? Vuex is a state management pattern + library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion. It also integrates with Vue's official devtools extension to provide advanced features such as zero-config time-travel debugging and state snapshot export / import.
-
-Here is a simple example in the document to show the State Management:
-
-![should be a StateManagement1.png](./images/StateManagement1.png)
-
-It is a self-contained app with the following parts:
-
-The state, which is the source of truth that drives our app;
-The view, which is just a declarative mapping of the state;
-The actions, which are the possible ways the state could change in reaction to user inputs from the view.
-This is an extremely simple representation of the concept of "one-way data flow":
-
-![should be a state.png](./images/state.png)
-
-The following picture shows the behind logic about how the entire State Management works:
-
-![should be a StateManagement2.png](./images/StateManagement2.png)
-
-
-### Build System ###
-
-The following command show how to install the build system:
-
-    npm install -g vue-cli
-	vue init webpack-simple my-app
-	cd my-app
-	npm install
-	npm run dev
-
-![should be a SingleFile.png](./images/SingleFile.png)
-
-As for the single file vue components, it contains several characters:
-
-- Imported as a ES2015 module (thus easily testable)
-- Collocation of Template, Logic & Style
-- Just use what you already know: HTML, CSS & JavaScript
-- Embedded pre-processor support: seamlessly use Babel, SASS or even Pug in the same file
-- Hot-reload out of the box
-- Component-scoped CSS with a single attribute
-
-After we run the Vue.js program in the local server, we can use the outside software to make supportions toward the Vue.js project. Like the Official Chrome, it provides the DevTools Extension for developer to see the detail content and reaction state in Vue.js:
-
-![should be a Chrome.png](./images/Chrome.png)
-
-
-
-## ***7. Technical Debt***
+## ***6. Technical Debt***
 
 Technical debt (AKA **design debt** or **code debt**) is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer. But technical debt is not necessarily a bad thing, and sometimes it can move projects foward.
 
@@ -318,20 +217,29 @@ And here are some common causes of technical debt including:
 
 Nothing is perfect, and there are always heated debates that which framework is the best one for developers and so on. Vue.js and other front-end frameworks are also without exception to arouse the discussion. Some users pointed out that, although Vue.js has lots of advantages such as reactivity, high availability, fast speed, light-weighted, good scalability etc., it does disappoint them in some ways. For example, its component boilerplate is not so satisfying, some codes can be more simplified. What's more, as I mentioned before, Vuex is a state management pattern for Vue.js, but its ambiguity in architecture really confused users, they do not know where the codes belong to. Ultimately, even Vue.js has the most detailed official docs, its lacking advanced or higher level tutorials or docs or books about it.
 
-For example, the lifecycle of instance of Vue has changed a lot from Vue1.0 to Vue2.0, and here is the difference:
-![](./images/Vue1.png)
-![](./images/Vue2.png)
 
 What I've talked about is not the comprehensive questions Vue.js has. But Evan You and other developers are working for the project to promote it. Vue.js has established its [forum](https://forum.vuejs.org) for those from all over the world using Vue.js. Additionally, Evan You has issued the Vue 3.0 version and published the Vue CLI 3.0 version with important updates. Vue.js is on its way to be a better framework.
 
 
 
-## ***8. Evolution Perspective***
+## ***7. Evolution Perspective***
+
+As we have put it out that vue have evolved basicly from Vue1.0 to Vue2.0 and finally come to Vue3.0 cli today. And every evolution between versions will provide clearer definition of elements of Vue and more powerful functions of Vue framework to meet developers' requirement. The first big change started from Vue1.0 to Vue2.0, which redefine the lifecycle of the instance of Vue and here is the difference:
+
+![](./images/Vue1.png)
+![](./images/Vue2.png)
+
+Besides that, Vue2.0 reconstruct the definition of components, which requires developers to register. Also, Vue2.0 provides a new function to communicate between components: Child components can access parent components's data by props. This is convenient for developers to synchronize components while users make some operations.
+
+Then it comes to another revolutionary change, the Vue3.0. Comparing with Vue2.0, Vue 3.0 changed the project directory structure to make it clearer and easier to check. It remove the `build` and `config` directory and hide the webpack configuration files, which can encapsulate many details of project config. Instead, vue officially provides a new config core file `Vue.config.js` to store developers' config data, which can cut down many unnecessary config files. What's more, `Vue.config.js` is a selectable config file. If the root directory contains this file, it will be automatically loaded by `@vue/cli-service`. Another big change from Vue2.0 to Vue3.0 is the environment settings. For Vue3.0, developersjust need to create an env file in the root directory of the project and fill it with environment parameters and config info. Here, different from Vue2.0, developers can create more than one env config file, which means they can release their projects based on environments of different requirements. Apart from this, Vue3.0 changed the debugging command in order to speed up the testing process and decrease the burden of the developing tools. Vue3.0 use "npm run build" and "npm run server" to replace the "npm run dev" in Vue2.0. "npm run build" aims at completely packing the whole project, which is ready to release, while "npm run server" is a fast way to run the project for testing.
+
+Here is the Evolution details of Vue:
+![](./images/Evolution.png)
+
 
 Even if we have emphasized a lot about the magic power of Vue framework, we can't ignore it that vue still has many fields to be improved. As a new comming developing technic, in order to chase up with other mature framework like ReactNative, Vue has created the official technical proposal such as Vuex and VueRouter, which is supposed to be a good way. However, if you want to search for substitution of Vuex and VueRouter as your framework, you will find it difficult to seek out a result which updates frequently with completed documents. All of Vue projects on the markets aims at front-end UI, and other types of projects are in a very small number. So maybe in the future, Vue can also make some improvement on Non-UI components to diversify its functions.
 
-Another pressing problem is the education process. Vue doesn't lack of textbooks for beginners, but high-level developing textbooks and documents are desperately in need.
-Since Vue is very flexible, to achieve the same requirement, developers can have a lot of kinds of design patterns, which make projects hard to maintain. If vue can define more strict grammer, the maintaining section can be easier to carry on.
+Another pressing problem is the education process. Vue doesn't lack of textbooks for beginners, but high-level developing textbooks and documents are desperately in need. Since Vue is very flexible, to achieve the same requirement, developers can have a lot of kinds of design patterns, which make projects hard to maintain. If vue can define more strict grammer, the maintaining section can be easier to carry on.
 
 Finally and most importantly, Vue lacks of IDE supported on the market. Eclipse and IEDA can't run vue projects without install many complex components of Node.js and Vue framework, which makes the developing for beginners hard to carry on. In the future, we are looking forward to see that Vue framework can be accepted by more and more IDE tools and plays an important role in Web and UI design.
 
