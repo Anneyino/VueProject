@@ -201,7 +201,7 @@ It has been learned that vue is data binding through data hijacking. The most co
 3. implement a Watcher, as a bridge connecting Observer and Compile, can subscribe to and receive notification of each attribute change , execute the corresponding callback function bound by the instruction, thereby updating the view 
 4. mvvm entry function, and integrating the above three
 
-![MVVM binding](https://ss0.baidu.com/6LVYsjip0QIZ8Aqbn9fN2DC/timg?pa&quality=100&size=b640_10000&sec=1539610034&di=cb9e3d59ca132b8eaa4df322389a33c8&ref=http%3A%2F%2Fwww%2Ebitscn%2Ecom%2Fschool%2FJavascript%2F201612%2F763846%2Ehtml&src=http%3A%2F%2Fimg%2Ebitscn%2Ecom%2Fupimg%2Fallimg%2Fc161216%2F14QUaZ0%2D4AI%2Ejpg)
+![MVVM binding](./images/mvvm.jpeg)
 
 
 
