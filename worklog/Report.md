@@ -1,4 +1,4 @@
-﻿Vue - The Progressive Front-end Framework
+Vue - The Progressive Front-end Framework
 ===
 ![](./images/image0.png)
 
@@ -48,53 +48,44 @@ And in this project, we may say those companies using and supporting Vue or thos
 
 ### Developers
 
- Here are top three coders among all the 194 contributors:
+Developers are the people who construct and deploy the system, or lead a team  working with this project. More than 200 people have contributed to Vue.js, and the num is still increasing. The main part of the development is accomplished by [Evan You](https://github.com/yyx990803), leading other teams working other derived Vue.js project, such as vuex, vue-router, vue class, etc. Vue is now aimed at creating a big ecosystem for enhancing the influence and let more poeple or even companies try to use this light-weighted framework.
 
-1. @[Evan You](https://github.com/yyx990803) 2068 commits
-2. @[Hanks](https://github.com/Hanks10100) 47 commits
-3. @[chengchao](https://github.com/defcc) 37 commits
+### Users
 
-Developers aim at making Vue.js better.
+Users are also stakeholders with great importance because they use this project, recommend to their friends or even offer some critical suggestions to make it better. Previously, users discussed their problems sporadically on some unofficial forum or just put an issue on github, waiting others to solve the questions. Sometimes many of the problems remained unsolved. Now it has [Vue forum](https://forum.vuejs.org) for users to deal with the issues they may meet with together, which makes it more efficient and user-friendly.
 
 ### Special Sponsors
 
-There are 2 ways to support Vue.js. Funds donated via Patreon go directly to support Evan You, the creator of Vue.js, for him to work on it full-time.Funds donated via OpenCollective are managed with transparent expenses and will be used for compensating work and expenses for core team members or sponsoring community events. 
+There are 2 ways to support Vue.js. Funds donated via Patreon go directly to support Evan You, the creator of Vue.js, for him to work on it full-time.Funds donated via OpenCollective are managed with transparent expenses and will be used for compensating work and expenses for core team members or sponsoring community events.  And here are some of the sponsors.
 
 
-
-[![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/codexyz.png)](https://code.xyz/)
 
 ### Platinum Sponsors
 
 | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/bit-wide.png)](https://www.bitsrc.io/?utm_source=vue&utm_medium=vue&utm_campaign=vue&utm_term=vue&utm_content=vue) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/tooltwist.png)](http://tooltwist.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/vueschool.png)](https://vueschool.io/?utm_source=Vuejs.org&utm_medium=Banner&utm_campaign=Sponsored%20Banner&utm_content=V1) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/vehikl.png)](https://vehikl.com/) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |                                                              |                                                              |                                                              |                                                              |
-| [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/nativescript.png)](https://www.nativescript.org/vue?utm_source=vue-js-org&utm_medium=website&utm_campaign=nativescript-awareness) |                                                              |                                                              |                                                              |
-|                                                              |                                                              |                                                              |                                                              |
 
 ### Platinum Sponsors (China)
 
-| [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/geekbang.png)](https://www.geekbang.org/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/gitee.png)](https://gitee.com/?from=vue) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-|                                                              |                                                              |
+| [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/gitee.png)](https://gitee.com/?from=vue) |
+| ------------------------------------------------------------ |
+|                                                              |
+
+
 
 ### Gold Sponsors
 
 | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/vuemastery.png)](https://www.vuemastery.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/laravel.png)](https://laravel.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/htmlburger.png)](https://htmlburger.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/chaitin.png)](https://chaitin.cn/en/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/frontend-love.png)](https://www.frontenddeveloperlove.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/onsen-ui.png)](https://onsen.io/vue/) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
-| [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/vuetify.png)](https://vuetifyjs.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/neds.png)](https://neds.com.au/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/hackr-io.png)](https://hackr.io/tutorials/learn-vue-js) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/icons8.png)](https://icons8.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/vuejobs.png)](https://vuejobs.com/?ref=vuejs) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/codepilot.png)](https://codepilot.ai/) |
-|                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
-| [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/teamextension.png)](https://teamextension.io/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/aaha.png)](http://aaha.co/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/valuecoders.png)](https://www.valuecoders.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/nsoft.png)](https://www.nsoft.com/careers/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/coreui.png)](https://coreui.io/?utm_source=vuejs&utm_medium=logo&utm_campaign=homepage) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/piio.png)](https://piio.co/vuejs?ref=vuejs) |
-|                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
-| [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/tidelift.png)](https://tidelift.com/subscription/npm/vue) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/webdock.png)](https://webdock.io/en) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/syncfusion.png)](https://syncfusion.com/products/vue) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/kintohub.png)](https://kintohub.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/opteo.png)](https://opteo.com/vue) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/issue-sh.png)](https://issue.sh/) |
-|                                                              |                                                              |                                                              |                                                              |                                                              |                                                              |
 
 ### Competitors 
 
 | ![](./images/image_angular.png)               | ![](./images/image_react.png)              | ![](./images/image_dojo.png)         | ![](./images/image_ember.png)                |
 | --------------------------------------------- | ------------------------------------------ | ------------------------------------ | -------------------------------------------- |
 | [Angular](https://github.com/angular/angular) | [React](https://github.com/facebook/react) | [Dojo](https://github.com/dojo/dojo) | [Ember](https://github.com/emberjs/ember.js) |
+
+There are more than one prevalent framework on the Internet, and all of them want to standout among the others. After making comparisons between these frameworks, what listed below are their pros and cons.
 
 - Angular: prevalent and competitive in market, with abundant tools.
 - React: relatively simple and concentrated, easy to learn.
