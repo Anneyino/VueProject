@@ -121,10 +121,8 @@ Here we use [Vuex](https://github.com/vuejs/vuex) to manage the large scale stat
 
 Definitely, GitHub plays an important role for Vue.js development, it records the code version, issues, and project management. Besides, Vue.js project also has its own organized [forum community](https://forum.vuejs.org/) for users to question the issues and share the knowledge. As we already say ahead, the forum can support Chinese language very well.
 
-### Detail about Combined Framework
+### Contrast to other Framework
 When compared to other frameworks, Vue.js has its own pros and cons. The main advantage is that it is very light weight and easy to use. Vue.js doses score higher in some benchmarks when comes to performance. Vue.js offers us to build reactive interfaces. It also provides a large set of directives, Data binding, template logic, event handling and much more.
-
-> [Here is the 25+ Best Vue.Js Frameworks](https://cssauthor.com/vuejs-frameworks/)
 
 ***5.Development View***
 ---
