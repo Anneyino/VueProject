@@ -74,11 +74,6 @@ There are 2 ways to support Vue.js. Funds donated via Patreon go directly to sup
 
 
 
-### Gold Sponsors
-
-| [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/vuemastery.png)](https://www.vuemastery.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/laravel.png)](https://laravel.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/htmlburger.png)](https://htmlburger.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/chaitin.png)](https://chaitin.cn/en/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/frontend-love.png)](https://www.frontenddeveloperlove.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/onsen-ui.png)](https://onsen.io/vue/) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-
 ### Competitors 
 
 | ![](./images/image_angular.png)               | ![](./images/image_react.png)              | ![](./images/image_dojo.png)         | ![](./images/image_ember.png)                |
@@ -208,18 +203,20 @@ It has been learned that vue is data binding through data hijacking. The most co
 
 ## ***6. Technical Debt***
 
-Technical debt (AKA **design debt** or **code debt**) is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer. But technical debt is not necessarily a bad thing, and sometimes it can move projects foward.
+Technical debt is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer. But technical debt is not necessarily a bad thing, and sometimes it can move projects foward.
 
-And here are some common causes of technical debt including:
-
-- Insufficient up-front definition, where requirements are still being defined during development, development starts before any design takes place. This is done to save time but often has to be reworked later.
-- Lack of process or understanding, where businesses are blind to the concept of technical debt, and make decisions without considering the implications.
-- ...
-
-Nothing is perfect, and there are always heated debates that which framework is the best one for developers and so on. Vue.js and other front-end frameworks are also without exception to arouse the discussion. Some users pointed out that, although Vue.js has lots of advantages such as reactivity, high availability, fast speed, light-weighted, good scalability etc., it does disappoint them in some ways. For example, its component boilerplate is not so satisfying, some codes can be more simplified. What's more, as I mentioned before, Vuex is a state management pattern for Vue.js, but its ambiguity in architecture really confused users, they do not know where the codes belong to. Ultimately, even Vue.js has the most detailed official docs, its lacking advanced or higher level tutorials or docs or books about it.
+### Code Debt
 
 
-What I've talked about is not the comprehensive questions Vue.js has. But Evan You and other developers are working for the project to promote it. Vue.js has established its [forum](https://forum.vuejs.org) for those from all over the world using Vue.js. Additionally, Evan You has issued the Vue 3.0 version and published the Vue CLI 3.0 version with important updates. Vue.js is on its way to be a better framework.
+
+### Document Debt
+
+Developers write documents of their projects, which can help others understand their code. And its sustainability will still be useful to those late-comers even if developers no longer updates it. But Vue.js still has some disadvantages in their documents:
+
+- Vue.js is weel-known for its abundant documents written on official websites, however, many users complained that these documents are friendly to beginners but do not provide more detailed knowledge for further learning.
+- Though Vue.js set up a [forum](https://forum.vuejs.org) for developers all over the world to discuss their problems when using Vue.js, the forum is not so active. Many issues get few feedbacks and some of them even still remain unsolved. 
+
+
 
 
 
