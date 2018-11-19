@@ -88,6 +88,11 @@ There are more than one prevalent framework on the Internet, and all of them wan
 - Ember: a somewhat stubborn framework, nearly one way to create application. Backward Compatible.
 - Vue.js: progressive framework, concise and reasonable, easy to comprehend and build.
 
+As we know, the frameworks are designed to help us deal with complexity, but frameworks themselves can also introduce complexity of their own. So there is a trade-off between the application complexity and framwork complexity. Here you can see the comparation of different framework complexity, the Vue.js performs really well.
+
+![](./images/Comparation.png)
+
+
 ### Power-Interest Grid
 
 A stakeholders matrix shows which strategies to use. In this project, as you can see, the developer, Evan You and his team has the most closest relation to Vue.js. In addition, his work needs fund so that some companies support and use it closely. Also, users can discuss on the forum whenever they have some problems. Since Vue.js is based on JavaScript and published on GitHub, that is why I put them into this grid. As for other front-end framework like React, they are competitors so they keep informed of what Vue.js is going on.
@@ -115,9 +120,6 @@ Here we use [Vuex](https://github.com/vuejs/vuex) to manage the large scale stat
 ### Development & Community
 
 Definitely, GitHub plays an important role for Vue.js development, it records the code version, issues, and project management. Besides, Vue.js project also has its own organized [forum community](https://forum.vuejs.org/) for users to question the issues and share the knowledge. As we already say ahead, the forum can support Chinese language very well.
-
-### Contrast to other Framework
-When compared to other frameworks, Vue.js has its own pros and cons. The main advantage is that it is very light weight and easy to use. Vue.js doses score higher in some benchmarks when comes to performance. Vue.js offers us to build reactive interfaces. It also provides a large set of directives, Data binding, template logic, event handling and much more.
 
 ***5.Development View***
 ---
@@ -198,6 +200,75 @@ It has been learned that vue is data binding through data hijacking. The most co
 
 ![MVVM binding](./images/mvvm.jpeg)
 
+
+## ***6. Functional View***
+
+## Overview about Vue.js ##
+As we already say ahead, the Vue.js framework can be divided into several parts. The source code is mainly about **Declarative Rendering**, **Component System**, **Client-Side Routing**. Also, there are many frameworks(like vuex) based on the Vue core source code, making some extend implements. These outside framework can be divided into **Large Scale State Management**, **Build System**.
+
+### Declarative Rendering ###
+The following picture show the specific details about how the rendering flow works. In fact, up to the Vue.js 2.0 version, it use the Declarative & Reactive Rendering to implement the visual effect. To be more specific, the State component receive the information(request) from the User Input, and then render the corresponding View component. View in this way is just a declarative mapping from the state. However, it can interact as the front end with the User and pass the reactive request to the back end again.
+
+![](./images/Rendering.png)
+
+![](./images/FunctionalView1.jpg)
+
+![](./images/FunctionalView2.jpg)
+
+Besides, the Vue.js provides us the API to achieve the server-side rendering, using renderToString method or renderToStream method. Both of them are written in the ./dist/vue.common.js, you can check it and even modify it as you want.
+
+Last but not least, the Vue.js has the mechanism of rendering optimization, which means it provides the immutable data structures and doesn't need the below from vue.js compiler to optimize the rendering. The static attributes and classes help project skip the diffing in the patch. When first rendering completed, results of staticRenderFns is cached in Vue instance. In later, it directly uses this cached in the patch.
+
+### Component System ###
+
+Most Apps UIs can be broken down into components. Every component is responsible for managing a piece of DOM. Therefore, the entire UI can be abstracted into a tree of components. Between each component, there is a communication mechanism, the child compoenent use **events out** to emit the events, and the parent component use **props in** to pass props toward the child. 
+
+![](./images/Component1.png)
+
+![](./images/Component2.png)
+
+
+### Client-Side Routing ###
+This function is implemented by the [vue-router](https://github.com/vuejs/vue-router). Vue-router is the official router for Vue.js. It deeply integrates with Vue.js core to make building Single Page Applications with Vue.js a breeze. Features include:
+
+- Nested route/view mapping
+- Modular, component-based router configuration
+- Route params, query, wildcards
+- View transition effects powered by Vue.js' transition system
+- Fine-grained navigation control
+- Links with automatic active CSS classes
+- HTML5 history mode or hash mode, with auto-fallback in IE9
+- Customizable Scroll Behavior
+
+The Vue-router provides several pattern to achieve the single page application, by hash pattern(default) or history pattern. Every time when you change the hook, it will render the data in certain position. Also, we can set configuration for the Vue-router to implement the multi-layer router adapted for the complex components in the front end.
+
+### Large Scale State Management ###
+
+Here we use [Vuex](https://github.com/vuejs/vuex) to manage the large scale state. It is a self-contained app with the following parts:
+
+- The state, which is the source of truth that drives our app;
+- The view, which is just a declarative mapping of the state;
+- The actions, which are the possible ways the state could change in reaction to user inputs from the view.
+- This is an extremely simple representation of the concept of "one-way data flow":
+
+![](./images/state.png)
+
+The following picture the behind logic about how the entire State Management works:
+
+![](./images/StateManagement2.png)
+
+
+### Build System & Development Experience ###
+As for the single file vue components, it contains several characters:
+
+- Imported as a ES2015 module (thus easily testable)
+- Collocation of Template, Logic & Style
+- Just use what you already know: HTML, CSS & JavaScript
+- Embedded pre-processor support: seamlessly use Babel, SASS or even Pug in the same file
+- Hot-reload out of the box
+- Component-scoped CSS with a single attribute
+
+After we run the Vue.js program in the local server, we can use the outside software to make supportions toward the Vue.js project. Like the Official Chrome, it provides the DevTools Extension for developer to see the detail content and reaction state in Vue.js.
 
 
 ## ***6. Technical Debt***
