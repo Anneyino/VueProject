@@ -52,11 +52,11 @@ Developers are the people who construct and deploy the system, or lead a team  w
 
 ### Users
 
-Users are also stakeholders with great importance because they use this project, recommend to their friends or even offer some critical suggestions to make it better. Previously, users discussed their problems sporadically on some unofficial forum or just put an issue on github, waiting others to solve the questions. Sometimes many of the problems remained unsolved. Now it has [Vue forum](https://forum.vuejs.org) for users to deal with the issues they may meet with together, which makes it more efficient and user-friendly.
+Users are also stakeholders with great importance because they use this project, recommend to their friends or even offer some critical suggestions to make it better. Previously, users discussed their problems sporadically on some unofficial forum or just put an issue on github, waiting others to solve the questions. Sometimes many of the problems remained unsolved. Now it has [Vue forum](https://forum.vuejs.org) for users to deal with the issues they may meet with together, which makes it more efficient and user-friendly. Also there is a [vueschool](https://vueschool.io/) for them to learn vue systematically.
 
 ### Special Sponsors
 
-There are 2 ways to support Vue.js. Funds donated via Patreon go directly to support Evan You, the creator of Vue.js, for him to work on it full-time.Funds donated via OpenCollective are managed with transparent expenses and will be used for compensating work and expenses for core team members or sponsoring community events.  And here are some of the sponsors.
+There are 2 ways to support Vue.js. Funds donated via Patreon go directly to support Evan You, the creator of Vue.js, for him to work on it full-time.Funds donated via OpenCollective are managed with transparent expenses and will be used for compensating work and expenses for core team members or sponsoring community events. Sponsors like companies use Vue.js in their business and they also contribute to the coding and architectural decision makings. In addition, sponsors help users and developers because sponsors spend money providing a better place for them, and in return the users and developers make a compromising future. And here are some of the sponsors.
 
 
 
@@ -88,7 +88,7 @@ There are more than one prevalent framework on the Internet, and all of them wan
 - Ember: a somewhat stubborn framework, nearly one way to create application. Backward Compatible.
 - Vue.js: progressive framework, concise and reasonable, easy to comprehend and build.
 
-As we know, the frameworks are designed to help us deal with complexity, but frameworks themselves can also introduce complexity of their own. So there is a trade-off between the application complexity and framwork complexity. Here you can see the comparation of different framework complexity, the Vue.js performs really well.
+As we know, the frameworks are designed to help us deal with complexity, but frameworks themselves can also introduce complexity of their own. So there is a trade-off between the application complexity and framwork complexity. Here you can see the comparison of different framework complexity, the Vue.js performs really well.
 
 ![](./images/Comparation.png)
 
