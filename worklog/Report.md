@@ -202,8 +202,6 @@ It has been learned that vue is data binding through data hijacking. The most co
 
 
 ## ***6. Functional View***
-
-## Overview about Vue.js ##
 As we already say ahead, the Vue.js framework can be divided into several parts. The source code is mainly about **Declarative Rendering**, **Component System**, **Client-Side Routing**. Also, there are many frameworks(like vuex) based on the Vue core source code, making some extend implements. These outside framework can be divided into **Large Scale State Management**, **Build System**.
 
 ### Declarative Rendering ###
@@ -271,7 +269,7 @@ As for the single file vue components, it contains several characters:
 After we run the Vue.js program in the local server, we can use the outside software to make supportions toward the Vue.js project. Like the Official Chrome, it provides the DevTools Extension for developer to see the detail content and reaction state in Vue.js.
 
 
-## ***6. Technical Debt***
+## ***7. Technical Debt***
 
 Technical debt is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer. But technical debt is not necessarily a bad thing, and sometimes it can move projects foward.
 
@@ -290,7 +288,7 @@ Developers write documents of their projects, which can help others understand t
 
 
 
-## ***7. Evolution Perspective***
+## ***8. Evolution Perspective***
 
 As we have put it out that vue have evolved basicly from Vue1.0 to Vue2.0 and finally come to Vue3.0 cli today. And every evolution between versions will provide clearer definition of elements of Vue and more powerful functions of Vue framework to meet developers' requirement. The first big change started from Vue1.0 to Vue2.0, which redefine the lifecycle of the instance of Vue and here is the difference:
 
