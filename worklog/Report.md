@@ -142,7 +142,6 @@ This section will explain how the directory of Vue.js is structured and coordina
 |packages|contains `vue-server-renderer` and `vue-template-compiler`, which are distributed as separate NPM packages. They are automatically generated from the source code and always have the same version with the main vue package.|
 |test|contains all tests. The unit tests are written with Jasmine and run with Karma. The e2e tests are written for and run with Nightwatch.js.|
 |src|contains the source code, obviously. The codebase is written in ES2015 with Flow type annotations.|
-||so|kj|
 |server|contains code related to server-side rendering.
 |platforms|contains platform-specific code. Entry files for dist builds are located in their respective platform directory.Each platform module contains three parts: `compiler`, `runtime` and `server`, corresponding to the three directories above. Each part contains platform-specific modules/utilities which are then imported and injected to the core counterparts in platform-specific entry files. For example, the code implementing the logic behind `v-bind:class` is in `platforms/web/runtime/modules/class.js` - which is imported in `entries/web-runtime.js` and used to create the browser-specific vdom patching function.|
 |sfc|contains single-file component (`*.vue` files) parsing logic. This is used in the `vue-template-compiler` package.|
