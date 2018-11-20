@@ -275,16 +275,18 @@ Technical debt is a concept in software development that reflects the implied co
 
 ### Code Debt
 
+Code debt is unavoidable because no on project can eliminate duplicate or redundant codes or other complexity in their codes. After using two code quality tools: [CodeFactor](https://www.codefactor.io) and [SonarLint](https://www.sonarlint.org), we can generally draw some conclusions:
 
+- As we can see from the image below, CodeFactor shows that the Vue project is nearly perfect at its code attribute. It only has **one** file rating B among all the **524** files. And in the B-rating file, it has some problems that it used some unused variables or some redundant operator like ";" at the end of line or "\" in a regular expression.![](./images/codefactor.png)
+
+- After importing the project in IDEA and analyzing it with SonarLint, it shows that there are 305 issues in 59 files. Most of the issues turn out to belong to the existence of codes having similar structure, but in different part and has different functions, so it may not be eliminated. Others are issues such as using one name for temp variables for many times, some code blocks remain empty or some variables are unused. Taking the characteristics of Vue.js, the code smell is not too bad but still can be improved. 
 
 ### Document Debt
 
 Developers write documents of their projects, which can help others understand their code. And its sustainability will still be useful to those late-comers even if developers no longer updates it. But Vue.js still has some disadvantages in their documents:
 
-- Vue.js is weel-known for its abundant documents written on official websites, however, many users complained that these documents are friendly to beginners but do not provide more detailed knowledge for further learning.
+- Vue.js is weel-known for its abundant documents written on official websites, however, many users complained that these documents are friendly to beginners but do not provide more detailed knowledge for further learning like an authoritative book. [Vueschool](https://vueschool.io) is now trying to solve the problem.
 - Though Vue.js set up a [forum](https://forum.vuejs.org) for developers all over the world to discuss their problems when using Vue.js, the forum is not so active. Many issues get few feedbacks and some of them even still remain unsolved. 
-
-
 
 
 
