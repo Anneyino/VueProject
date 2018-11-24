@@ -11,18 +11,23 @@ Vue - The Progressive Front-end Framework
 
 ## Contents
 
-- [jump](#Abstract)
-- [Intro](#2.Introduction)
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Stakeholders](#stakeholders)
 
 
 
-## **1.Abstract**
+
+
+
+
+## 1.Abstract
 
 
   Vue (pronounced /vjuː/, like **view**) is a **progressive framework** for building user interfaces. Unlike other monolithic frameworks, Vue is **designed from the ground up to be incrementally adoptable**. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with [modern tooling](https://vuejs.org/v2/guide/single-file-components.html) and [supporting libraries](https://github.com/vuejs/awesome-vue#components--libraries).
 
 
-**2.Introduction**
+## 2.Introduction
 ---
 In Vue, at the very beginning, you do not have to know everything about it. That is to say, you gradually learn more about Vue if there is a need for you to build  a more complex project. Vue.js gives you sufficient options, advocates fewer requirements and allows developers to begin coding quickly, adding more features as per project needs.
 
@@ -48,7 +53,7 @@ In a word, with the help of Vue, we can build our project depending on our own n
 
 
 
-***3.Stakeholders***
+## 3.Stakeholders
 ---
 
 ### What is a stakeholder?
@@ -112,8 +117,8 @@ A stakeholders matrix shows which strategies to use. In this project, as you can
 
 
 
-***4.ContextView***
----
+## 4.ContextView
+
 ### What is a ContextView?
 It describes the relationships, dependencies, and interactions between the system and its environment (the people, systems, and external entities with which it interacts). Many architecture descriptions focus on views that model the system’s internal structures, data elements, interactions, and operation. Architects tend to assume that the “outward-facing” information — the system’s runtime context, its scope and requirements, and so forth – is clearly and unambiguously defined elsewhere. However, you often need to include a definition of the system’s context as part of your architectural description.
 
@@ -132,8 +137,8 @@ Here we use [Vuex](https://github.com/vuejs/vuex) to manage the large scale stat
 
 Definitely, GitHub plays an important role for Vue.js development, it records the code version, issues, and project management. Besides, Vue.js project also has its own organized [forum community](https://forum.vuejs.org/) for users to question the issues and share the knowledge. As we already say ahead, the forum can support Chinese language very well.
 
-***5.Development View***
----
+## ***5.Development View***
+
 The development viewpoint describes the architecture that supports the software development process. It aims to provide an overview of the structure of Vue.js for stakeholders like production engineers, software developers and testers. This viewpoints concerns about module organization, conmmon processing,  standardization of design and testing, instrument and codeline organization.
 
 ### Module Organization
@@ -212,7 +217,7 @@ It has been learned that vue is data binding through data hijacking. The most co
 ![MVVM binding](./images/mvvm.jpeg)
 
 
-## ***6. Functional View***
+## 6. Functional View
 As we already say ahead, the Vue.js framework can be divided into several parts. The source code is mainly about **Declarative Rendering**, **Component System**, **Client-Side Routing**. Also, there are many frameworks(like vuex) based on the Vue core source code, making some extend implements. These outside framework can be divided into **Large Scale State Management**, **Build System**.
 
 ### Declarative Rendering ###
@@ -280,7 +285,7 @@ As for the single file vue components, it contains several characters:
 After we run the Vue.js program in the local server, we can use the outside software to make supportions toward the Vue.js project. Like the Official Chrome, it provides the DevTools Extension for developer to see the detail content and reaction state in Vue.js.
 
 
-## ***7. Technical Debt***
+## 7. Technical Debt
 
 Technical debt is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer. But technical debt is not necessarily a bad thing, and sometimes it can move projects foward.
 
@@ -301,7 +306,7 @@ Developers write documents of their projects, which can help others understand t
 
 
 
-## ***8. Evolution Perspective***
+## 8. Evolution Perspective
 
 As we have put it out that vue have evolved basicly from Vue1.0 to Vue2.0 and finally come to Vue3.0 cli today. And every evolution between versions will provide clearer definition of elements of Vue and more powerful functions of Vue framework to meet developers' requirement. The first big change started from Vue1.0 to Vue2.0, which redefine the lifecycle of the instance of Vue and here is the difference:
 
