@@ -1,5 +1,3 @@
-[TOC]
-
 Vue - The Progressive Front-end Framework
 ===
 
@@ -11,16 +9,20 @@ Vue - The Progressive Front-end Framework
 
 
 
+## Contents
+
+- [jump](#Abstract)
+- [Intro](#Introduction)
 
 
-**1.Abstract**
----
+
+## **1.Abstract**
 
 
   Vue (pronounced /vjuː/, like **view**) is a **progressive framework** for building user interfaces. Unlike other monolithic frameworks, Vue is **designed from the ground up to be incrementally adoptable**. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with [modern tooling](https://vuejs.org/v2/guide/single-file-components.html) and [supporting libraries](https://github.com/vuejs/awesome-vue#components--libraries).
 
 
-***2.Introduction***
+**2.Introduction**
 ---
 In Vue, at the very beginning, you do not have to know everything about it. That is to say, you gradually learn more about Vue if there is a need for you to build  a more complex project. Vue.js gives you sufficient options, advocates fewer requirements and allows developers to begin coding quickly, adding more features as per project needs.
 
