@@ -11,9 +11,9 @@ Vue - The Progressive Front-end Framework
 
 ## Contents
 
-- [Abstract](#1.abstract)
-- [Introduction](#2.introduction)
-- [Stakeholders](#3.stakeholders)
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Stakeholders](#stakeholders)
   - [What is a stakeholder?](#what-is-a-stakeholder)
   - [Developers](#developers)
   - [Users](#users)
@@ -21,38 +21,38 @@ Vue - The Progressive Front-end Framework
   - [Competitors](#competitors)
   - [Power-Interest Grid](#power-interest-grid)
 
-- [ContextView](#4.contextview)
+- [ContextView](#contextview)
   - [What is a ContextView?](#what-is-a-contextview)
   - [Brief Explanation about the figure](#brief-explanation-about-the-figure)
   - [Platform & Dependency](#platform-and-dependency)
   - [Development & Community](#development-and-community)
-- [5.Development View](#5.development-view)
+- [Development View](#development-view)
   - [Module Organization](#module-organization)
   - [Codeline Models](#codeline-models)
   - [Concurrency Viewpoint](#concurrency-viewpoint)
 
-- [6.Functional View](#6.functional-view)
+- [Functional View](#functional-view)
   - [Declarative Rendering](#declarative-rendering)
   - [Component System](#component-system)
   - [Client-Side Routing](#client-side-routing)
   - [Large Scale State Management](#large-scale-state-management)
   - [Build System & Development Experience](#build-system-and-development-experience)
-- [7.Technical Debt](#7.technical-debt)
+- [Technical Debt](#technical-debt)
   - [Code Debt](#code-debt)
   - [Document Debt](#document-debt)
-- [8.Evolution Perspective](#8.evolution-perspective)
-- [9.Conclusion](#9.conclusion)
-- [10.References](#10.references)
+- [Evolution Perspective](#evolution-perspective)
+- [Conclusion](#conclusion)
+- [References](#references)
 
 
 
-## 1.Abstract
+## Abstract
 
 
   Vue (pronounced /vjuː/, like **view**) is a **progressive framework** for building user interfaces. Unlike other monolithic frameworks, Vue is **designed from the ground up to be incrementally adoptable**. The core library is focused on the view layer only, and is easy to pick up and integrate with other libraries or existing projects. On the other hand, Vue is also perfectly capable of powering sophisticated Single-Page Applications when used in combination with [modern tooling](https://vuejs.org/v2/guide/single-file-components.html) and [supporting libraries](https://github.com/vuejs/awesome-vue#components--libraries).
 
 
-## 2.Introduction
+## Introduction
 
 
 In Vue, at the very beginning, you do not have to know everything about it. That is to say, you gradually learn more about Vue if there is a need for you to build  a more complex project. Vue.js gives you sufficient options, advocates fewer requirements and allows developers to begin coding quickly, adding more features as per project needs.
@@ -79,7 +79,7 @@ In a word, with the help of Vue, we can build our project depending on our own n
 
 
 
-## 3.Stakeholders
+## Stakeholders
 
 
 ### What is a stakeholder
@@ -133,7 +133,7 @@ A stakeholders matrix shows which strategies to use. In this project, as you can
 
 
 
-## 4.ContextView
+## ContextView
 
 
 ### What is a ContextView
@@ -156,7 +156,7 @@ Here we use [Vuex](https://github.com/vuejs/vuex) to manage the large scale stat
 
 Definitely, GitHub plays an important role for Vue.js development, it records the code version, issues, and project management. Besides, Vue.js project also has its own organized [forum community](https://forum.vuejs.org/) for users to question the issues and share the knowledge. As we already say ahead, the forum can support Chinese language very well.
 
-## 5.Development View
+## Development View
 
 
 The development viewpoint describes the architecture that supports the software development process. It aims to provide an overview of the structure of Vue.js for stakeholders like production engineers, software developers and testers. This viewpoints concerns about module organization, conmmon processing,  standardization of design and testing, instrument and codeline organization.
@@ -240,7 +240,7 @@ It has been learned that vue is data binding through data hijacking. The most co
 ![MVVM binding](./images/mvvm.jpeg)
 
 
-## 6.Functional View
+## Functional View
 
 
 As we already say ahead, the Vue.js framework can be divided into several parts. The source code is mainly about **Declarative Rendering**, **Component System**, **Client-Side Routing**. Also, there are many frameworks(like vuex) based on the Vue core source code, making some extend implements. These outside framework can be divided into **Large Scale State Management**, **Build System**.
@@ -313,7 +313,7 @@ As for the single file vue components, it contains several characters:
 After we run the Vue.js program in the local server, we can use the outside software to make supportions toward the Vue.js project. Like the Official Chrome, it provides the DevTools Extension for developer to see the detail content and reaction state in Vue.js.
 
 
-## 7.Technical Debt
+## Technical Debt
 
 
 Technical debt is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer. But technical debt is not necessarily a bad thing, and sometimes it can move projects foward.
@@ -335,7 +335,7 @@ Developers write documents of their projects, which can help others understand t
 
 
 
-## 8.Evolution Perspective
+## Evolution Perspective
 
 
 As we have put it out that vue have evolved basicly from Vue1.0 to Vue2.0 and finally come to Vue3.0 cli today. And every evolution between versions will provide clearer definition of elements of Vue and more powerful functions of Vue framework to meet developers' requirement. The first big change started from Vue1.0 to Vue2.0, which redefine the lifecycle of the instance of Vue and here is the difference:
@@ -359,8 +359,8 @@ Finally and most importantly, Vue lacks of IDE supported on the market. Eclipse 
 
 
 
-## 9.Conclusion
+## Conclusion
 
 
 
-## 10.References
+## References
