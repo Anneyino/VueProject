@@ -14,7 +14,7 @@ Vue - The Progressive Front-end Framework
 - [Abstract](#1.abstract)
 - [Introduction](#2.introduction)
 - [Stakeholders](#3.stakeholders)
-  - [What is a stakeholder?](#what-is-a-stakeholder?)
+  - [What is a stakeholder?](#what-is-a-stakeholder)
   - [Developers](#developers)
   - [Users](#users)
   - [Special Sponsors](#special-sponsors)
@@ -22,10 +22,10 @@ Vue - The Progressive Front-end Framework
   - [Power-Interest Grid](#power-interest-grid)
 
 - [ContextView](#4.contextview)
-  - [What is a ContextView?](#what-is-a-contextview?)
+  - [What is a ContextView?](#what-is-a-contextview)
   - [Brief Explanation about the figure](#brief-explanation-about-the-figure)
-  - [Platform & Dependency](#platform-&-dependency)
-  - [Development & Community](#development-&-community)
+  - [Platform & Dependency](#platform-and-dependency)
+  - [Development & Community](#development-and-community)
 - [5.Development View](#5.development-view)
   - [Module Organization](#module-organization)
   - [Codeline Models](#codeline-models)
@@ -36,7 +36,7 @@ Vue - The Progressive Front-end Framework
   - [Component System](#component-system)
   - [Client-Side Routing](#client-side-routing)
   - [Large Scale State Management](#large-scale-state-management)
-  - [Build System & Development Experience](#build-system-&-development-experience)
+  - [Build System & Development Experience](#build-system-and-development-experience)
 - [7.Technical Debt](#7.technical-debt)
   - [Code Debt](#code-debt)
   - [Document Debt](#document-debt)
@@ -82,7 +82,7 @@ In a word, with the help of Vue, we can build our project depending on our own n
 ## 3.Stakeholders
 
 
-### What is a stakeholder?
+### What is a stakeholder
 
 Stakeholder is  a member of the **"groups without whose support the organization would cease to exist."** or **"A person, group or organization that has interest or concern in an organization. "**
 
@@ -136,7 +136,7 @@ A stakeholders matrix shows which strategies to use. In this project, as you can
 ## 4.ContextView
 
 
-### What is a ContextView?
+### What is a ContextView
 
 It describes the relationships, dependencies, and interactions between the system and its environment (the people, systems, and external entities with which it interacts). Many architecture descriptions focus on views that model the system’s internal structures, data elements, interactions, and operation. Architects tend to assume that the “outward-facing” information — the system’s runtime context, its scope and requirements, and so forth – is clearly and unambiguously defined elsewhere. However, you often need to include a definition of the system’s context as part of your architectural description.
 
@@ -148,11 +148,11 @@ In order to display the basic relationship between Vue.js outside templates, her
 
 As a progressive javascript framework, Vue.js is supposed to use javascript, html, css language to achieve the visual effect. Due to the markup language, this framework can be run on Windows, Mac OS, Linux to display the front end, which makes it become very popular in the developer. You can see from the Vue.js [readme.md](https://github.com/vuejs/vue/blob/dev/README.md) to check that there are many supporters, couple of them in China are Greekbang and GITEE.COM, just because the main developer Evan You is a ethnic Chinese. The Chinese language support in the forum is very well. There are many learners and developers in the formal forum to answer the issues and come up with some ideas. Vue.js has lots of combine framework, like the `BV`, the `Muse UI`, the `Vuetify.js` and so on. They improve the Vue.js performance and add some additional function towards the framework.
 
-### Platform & Dependency
+### Platform and Dependency
 
 Here we use [Vuex](https://github.com/vuejs/vuex) to manage the large scale state. What is Vuex? Vuex is a state management pattern + library for Vue.js applications. It serves as a centralized store for all the components in an application, with rules ensuring that the state can only be mutated in a predictable fashion. It also integrates with Vue's official devtools extension to provide advanced features such as zero-config time-travel debugging and state snapshot export / import.
 
-### Development & Community
+### Development and Community
 
 Definitely, GitHub plays an important role for Vue.js development, it records the code version, issues, and project management. Besides, Vue.js project also has its own organized [forum community](https://forum.vuejs.org/) for users to question the issues and share the knowledge. As we already say ahead, the forum can support Chinese language very well.
 
@@ -299,7 +299,7 @@ The following picture the behind logic about how the entire State Management wor
 ![](./images/StateManagement2.png)
 
 
-### Build System & Development Experience ###
+### Build System and Development Experience ###
 
 As for the single file vue components, it contains several characters:
 
