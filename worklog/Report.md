@@ -11,13 +11,38 @@ Vue - The Progressive Front-end Framework
 
 ## Contents
 
-- [Abstract](#abstract)
-- [Introduction](#introduction)
-- [Stakeholders](#stakeholders)
+- [Abstract](#1.abstract)
+- [Introduction](#2.introduction)
+- [Stakeholders](#3.stakeholders)
+  - [What is a stakeholder?](#what-is-a-stakeholder?)
+  - [Developers](#developers)
+  - [Users](#users)
+  - [Special Sponsors](#special-sponsors)
+  - [Competitors](#competitors)
+  - [Power-Interest Grid](#power-interest-grid)
 
+- [ContextView](#4.contextview)
+  - [What is a ContextView?](#what-is-a-contextview?)
+  - [Brief Explanation about the figure](#brief-explanation-about-the-figure)
+  - [Platform & Dependency](#platform-&-dependency)
+  - [Development & Community](#development-&-community)
+- [5.Development View](#5.development-view)
+  - [Module Organization](#module-organization)
+  - [Codeline Models](#codeline-models)
+  - [Concurrency Viewpoint](#concurrency-viewpoint)
 
-
-
+- [6.Functional View](#6.functional-view)
+  - [Declarative Rendering](#declarative-rendering)
+  - [Component System](#component-system)
+  - [Client-Side Routing](#client-side-routing)
+  - [Large Scale State Management](#large-scale-state-management)
+  - [Build System & Development Experience](#build-system-&-development-experience)
+- [7.Technical Debt](#7.technical-debt)
+  - [Code Debt](#code-debt)
+  - [Document Debt](#document-debt)
+- [8.Evolution Perspective](#8.evolution-perspective)
+- [9.Conclusion](#9.conclusion)
+- [10.References](#10.references)
 
 
 
@@ -28,7 +53,8 @@ Vue - The Progressive Front-end Framework
 
 
 ## 2.Introduction
----
+
+
 In Vue, at the very beginning, you do not have to know everything about it. That is to say, you gradually learn more about Vue if there is a need for you to build  a more complex project. Vue.js gives you sufficient options, advocates fewer requirements and allows developers to begin coding quickly, adding more features as per project needs.
 
 Also, you may get confused about what incrementally adoptable is. According to Evan You, the Vue.js creator, described his framework, ***“Vue tries to pick the middle ground where the core is still exposed as a very minimal feature set, but we also offer these incrementally adoptable pieces, like a routing solution, a state management solution, a build toolchain, and the CLI.”*** 
@@ -54,7 +80,7 @@ In a word, with the help of Vue, we can build our project depending on our own n
 
 
 ## 3.Stakeholders
----
+
 
 ### What is a stakeholder?
 
@@ -74,19 +100,9 @@ Users are also stakeholders with great importance because they use this project,
 
 There are 2 ways to support Vue.js. Funds donated via Patreon go directly to support Evan You, the creator of Vue.js, for him to work on it full-time.Funds donated via OpenCollective are managed with transparent expenses and will be used for compensating work and expenses for core team members or sponsoring community events. Sponsors like companies use Vue.js in their business and they also contribute to the coding and architectural decision makings. In addition, sponsors help users and developers because sponsors spend money providing a better place for them, and in return the users and developers make a compromising future. And here are some of the sponsors.
 
-
-
-### Platinum Sponsors
-
 | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/bit-wide.png)](https://www.bitsrc.io/?utm_source=vue&utm_medium=vue&utm_campaign=vue&utm_term=vue&utm_content=vue) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/tooltwist.png)](http://tooltwist.com/) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/vueschool.png)](https://vueschool.io/?utm_source=Vuejs.org&utm_medium=Banner&utm_campaign=Sponsored%20Banner&utm_content=V1) | [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/vehikl.png)](https://vehikl.com/) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 |                                                              |                                                              |                                                              |                                                              |
-
-### Platinum Sponsors (China)
-
-| [![img](https://raw.githubusercontent.com/vuejs/vuejs.org/master/themes/vue/source/images/gitee.png)](https://gitee.com/?from=vue) |
-| ------------------------------------------------------------ |
-|                                                              |
 
 
 
@@ -119,14 +135,17 @@ A stakeholders matrix shows which strategies to use. In this project, as you can
 
 ## 4.ContextView
 
+
 ### What is a ContextView?
+
 It describes the relationships, dependencies, and interactions between the system and its environment (the people, systems, and external entities with which it interacts). Many architecture descriptions focus on views that model the system’s internal structures, data elements, interactions, and operation. Architects tend to assume that the “outward-facing” information — the system’s runtime context, its scope and requirements, and so forth – is clearly and unambiguously defined elsewhere. However, you often need to include a definition of the system’s context as part of your architectural description.
 
 In order to display the basic relationship between Vue.js outside templates, here is the Context View about Vue.js framework, drawn by ourselves：
 
 ![should be a context view](./images/ContextView.jpg)
 
-### Brief Explaination about the figure
+### Brief Explanation about the figure
+
 As a progressive javascript framework, Vue.js is supposed to use javascript, html, css language to achieve the visual effect. Due to the markup language, this framework can be run on Windows, Mac OS, Linux to display the front end, which makes it become very popular in the developer. You can see from the Vue.js [readme.md](https://github.com/vuejs/vue/blob/dev/README.md) to check that there are many supporters, couple of them in China are Greekbang and GITEE.COM, just because the main developer Evan You is a ethnic Chinese. The Chinese language support in the forum is very well. There are many learners and developers in the formal forum to answer the issues and come up with some ideas. Vue.js has lots of combine framework, like the `BV`, the `Muse UI`, the `Vuetify.js` and so on. They improve the Vue.js performance and add some additional function towards the framework.
 
 ### Platform & Dependency
@@ -137,17 +156,20 @@ Here we use [Vuex](https://github.com/vuejs/vuex) to manage the large scale stat
 
 Definitely, GitHub plays an important role for Vue.js development, it records the code version, issues, and project management. Besides, Vue.js project also has its own organized [forum community](https://forum.vuejs.org/) for users to question the issues and share the knowledge. As we already say ahead, the forum can support Chinese language very well.
 
-## ***5.Development View***
+## 5.Development View
+
 
 The development viewpoint describes the architecture that supports the software development process. It aims to provide an overview of the structure of Vue.js for stakeholders like production engineers, software developers and testers. This viewpoints concerns about module organization, conmmon processing,  standardization of design and testing, instrument and codeline organization.
 
 ### Module Organization
+
 Vue framework is a very young open-source project built by Evan You, a 19-year-old awsome boy from Google. Over the the past 4 years, many developers have joined this project to make it more powerful and easy for UI designers to use. From the first version Vue1.0 to recent Vue2.0, the organization of Vue has changed several times, but the core module stays the same. The module organization can be simply divided into 2 parts: Client and Server. The following figure shows the basic architecture.
 ![](./images/Module.jpg)
 
 As we have mentioned before, Vue combines the server and client by JS Framework generated by Weex Files, then Vue encalpsulated them as components to establish a new web project. With the help of corresponding renderEngine, those components are loaded by the client machines and rendered to show expected effects.
 
 ### Codeline Models
+
 This section will explain how the directory of Vue.js is structured and coordinated via configuration management and how it is built and tested regularly. The overall structure of the directory hierarchy of Vue.js is organized as follows.
 
 **Table-** *source code structure of Vue.js*
@@ -184,6 +206,7 @@ Here are the subdirectories of `/src`
 ||components|universal abstract components. Currently keep-alive is the only one.|
 
 ### Concurrency Viewpoint
+
 The concurrency viewpoint describes the concurrency structure of the system, mapping functional elements to concurrency units to clearly identify the parts of the system that can execute concurrently, and shows how this is coordinated and controlled.This involves defining the parts of the system that can run at the same time and how this is controlled (e.g., defining how the system’s functional elements are packaged into operating system processes and how the processes coordinate their execution). It is depicted via system-level concurrency modesl and state models.
 
 **Figure-** *operating mechanism diagram of Vue.js*
@@ -217,10 +240,13 @@ It has been learned that vue is data binding through data hijacking. The most co
 ![MVVM binding](./images/mvvm.jpeg)
 
 
-## 6. Functional View
+## 6.Functional View
+
+
 As we already say ahead, the Vue.js framework can be divided into several parts. The source code is mainly about **Declarative Rendering**, **Component System**, **Client-Side Routing**. Also, there are many frameworks(like vuex) based on the Vue core source code, making some extend implements. These outside framework can be divided into **Large Scale State Management**, **Build System**.
 
 ### Declarative Rendering ###
+
 The following picture show the specific details about how the rendering flow works. In fact, up to the Vue.js 2.0 version, it use the Declarative & Reactive Rendering to implement the visual effect. To be more specific, the State component receive the information(request) from the User Input, and then render the corresponding View component. View in this way is just a declarative mapping from the state. However, it can interact as the front end with the User and pass the reactive request to the back end again.
 
 ![](./images/Rendering.png)
@@ -243,6 +269,7 @@ Most Apps UIs can be broken down into components. Every component is responsible
 
 
 ### Client-Side Routing ###
+
 This function is implemented by the [vue-router](https://github.com/vuejs/vue-router). Vue-router is the official router for Vue.js. It deeply integrates with Vue.js core to make building Single Page Applications with Vue.js a breeze. Features include:
 
 - Nested route/view mapping
@@ -273,6 +300,7 @@ The following picture the behind logic about how the entire State Management wor
 
 
 ### Build System & Development Experience ###
+
 As for the single file vue components, it contains several characters:
 
 - Imported as a ES2015 module (thus easily testable)
@@ -285,7 +313,8 @@ As for the single file vue components, it contains several characters:
 After we run the Vue.js program in the local server, we can use the outside software to make supportions toward the Vue.js project. Like the Official Chrome, it provides the DevTools Extension for developer to see the detail content and reaction state in Vue.js.
 
 
-## 7. Technical Debt
+## 7.Technical Debt
+
 
 Technical debt is a concept in software development that reflects the implied cost of additional rework caused by choosing an easy solution now instead of using a better approach that would take longer. But technical debt is not necessarily a bad thing, and sometimes it can move projects foward.
 
@@ -306,7 +335,8 @@ Developers write documents of their projects, which can help others understand t
 
 
 
-## 8. Evolution Perspective
+## 8.Evolution Perspective
+
 
 As we have put it out that vue have evolved basicly from Vue1.0 to Vue2.0 and finally come to Vue3.0 cli today. And every evolution between versions will provide clearer definition of elements of Vue and more powerful functions of Vue framework to meet developers' requirement. The first big change started from Vue1.0 to Vue2.0, which redefine the lifecycle of the instance of Vue and here is the difference:
 
@@ -327,3 +357,10 @@ Another pressing problem is the education process. Vue doesn't lack of textbooks
 
 Finally and most importantly, Vue lacks of IDE supported on the market. Eclipse and IEDA can't run vue projects without install many complex components of Node.js and Vue framework, which makes the developing for beginners hard to carry on. In the future, we are looking forward to see that Vue framework can be accepted by more and more IDE tools and plays an important role in Web and UI design.
 
+
+
+## 9.Conclusion
+
+
+
+## 10.References
