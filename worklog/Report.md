@@ -84,7 +84,7 @@ Vue - The Progressive Front-end Framework
 
 ### What is a stakeholder
 
-​	Stakeholder is  a member of the **"groups without whose support the organization would cease to exist."** or **"A person, group or organization that has interest or concern in an organization. "**
+​	Stakeholder is  a member of the **"groups without whose support the organization would cease to exist."** or **"A person, group or organization that has interest or concern in an organization. "** [[17]](#references)
 
 ​	And in this project, we may say those companies using and supporting Vue or those developers who contribute to Vue.
 
@@ -379,10 +379,22 @@ Here is the Evolution details of Vue:
 ## References
 
 1. [Vuejs official guide](https://cn.vuejs.org/v2/guide/)
-2. [Why to Vue.js and What It Can Do for Your Company](https://polcode.com/blog/why-vue-js-and-what-it-can-for-your-company/)
-3. [Comparison to other frameworks](https://cn.vuejs.org/v2/guide/comparison.html)
-4. [Software Systems Architecture](https://www.viewpoints-and-perspectives.info/home/viewpoints/)
-5. [25+ Best Vue.Js Frameworks](https://cssauthor.com/vuejs-frameworks/)
-6. [Vue.js Contributing Guide](https://github.com/vuejs/vue/blob/v2.5.17-beta.0/.github/CONTRIBUTING.md#project-structure)
-7. [Operating Machanism of Vue.js](http://web.jobbole.com/95292/)
-8. [Next Vue.js 2.0](https://speakerdeck.com/kazupon/next-vue-dot-js-2-dot-0)
+2. [Software Systems Architecture](https://www.viewpoints-and-perspectives.info/home/viewpoints/) Viewpoints on Software Architecture
+3. [25+ Best Vue.Js Frameworks](https://cssauthor.com/vuejs-frameworks/) Template for Vue.js
+4. [Vue.js Contributing Guide](https://github.com/vuejs/vue/blob/v2.5.17-beta.0/.github/CONTRIBUTING.md#project-structure) How to contribute to Vue.js
+5. [Why to Vue.js and What It Can Do for Your Company](https://polcode.com/blog/why-vue-js-and-what-it-can-for-your-company/) Brief introduction to Vue.js
+6. [Operating Mechanism of Vue.js](http://web.jobbole.com/95292/) Structure and mechanism about Vue.js
+7. [Next Vue.js 2.0](https://speakerdeck.com/kazupon/next-vue-dot-js-2-dot-0) About Vue 2.0
+8. [Comparison to other frameworks](https://cn.vuejs.org/v2/guide/comparison.html) Comparison by official website
+9. [Comparison of JS frameworks](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks) Comparison by wikipeida
+10. [High-fidelity behavioural model for electronic support measure microwave receriver front-end](http://cradpdf.drdc-rddc.gc.ca/PDFS/unc229/p533483_A1b.pdf) An essay about front-end model
+11. [Return of the JS: Towards a Node.js-Based Software Architecture for Combined CMS/CRM Applications](https://www.sciencedirect.com/science/article/pii/S1877050918317927) An essay about Node.js-Based Software Architecture
+12. [Node.js](https://nodejs.org/en/) A JavaScript runtime-environment
+13. [Node.js: Using JavaScript to build high-performance network programs](https://www.scopus.com/record/display.uri?eid=2-s2.0-78149255825&origin=inward&txGid=f3a6df406aecc8b01bdf8dd3e58de6ba)
+14. [Vuejs 2015 in Review](http://blog.evanyou.me/2015/12/20/vuejs-2015-in-review/) Blog by Evan You about Vue.js in 2015
+15. [Vue in 2016](https://medium.com/the-vue-point/vue-in-2016-8df71d98bfb3) Blog by Evan You about Vue.js in 2016
+16. [Vue in 2017](https://www.cnblogs.com/ang-/p/8371330.html) Look back on 2017 and look ahead 2018
+17. [Next Iteration of Vue.js](https://medium.com/the-vue-point/plans-for-the-next-iteration-of-vue-js-777ffea6fabf) Evan You talking about the coming Vue 3.0
+18. [Technical Debt](https://en.wikipedia.org/wiki/Technical_debt) concept from wikipedia
+19. [React](https://github.com/facebook/react) Another excellent framework REACT
+20. [jobble](http://web.jobbole.com/) A platform for front-end design
