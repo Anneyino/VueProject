@@ -253,7 +253,7 @@ From the View side, the DOM Listeners tool in the ViewModel will help us monitor
 
 ### Declarative Rendering ###
 
-​	The following picture show the specific details about how the rendering flow works. In fact, up to the Vue.js 2.0 version, it use the Declarative & Reactive Rendering to implement the visual effect. To be more specific, the State component receive the information(request) from the User Input, and then render the corresponding View component. View in this way is just a declarative mapping from the state. However, it can interact as the front end with the User and pass the reactive request to the back end again.[[8]](#reference)
+​	The following picture show the specific details about how the rendering flow works. In fact, up to the Vue.js 2.0 version, it use the Declarative & Reactive Rendering to implement the visual effect. To be more specific, the State component receive the information(request) from the User Input, and then render the corresponding View component. View in this way is just a declarative mapping from the state. However, it can interact as the front end with the User and pass the reactive request to the back end again.[[8]](#references)
 
 ![](./images/Rendering.png)
 
