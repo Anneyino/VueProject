@@ -140,7 +140,7 @@ Vue - The Progressive Front-end Framework
 
 ### What is a ContextView
 
-​	It describes the relationships, dependencies, and interactions between the system and its environment (the people, systems, and external entities with which it interacts). Many architecture descriptions focus on views that model the system’s internal structures, data elements, interactions, and operation. Architects tend to assume that the “outward-facing” information — the system’s runtime context, its scope and requirements, and so forth – is clearly and unambiguously defined elsewhere. However, you often need to include a definition of the system’s context as part of your architectural description.
+​	It describes the relationships, dependencies, and interactions between the system and its environment (the people, systems, and external entities with which it interacts). Many architecture descriptions focus on views that model the system’s internal structures, data elements, interactions, and operation. Architects tend to assume that the “outward-facing” information — the system’s runtime context, its scope and requirements, and so forth – is clearly and unambiguously defined elsewhere. However, you often need to include a definition of the system’s context as part of your architectural description.[[4]](#references)
 
 ​	In order to display the basic relationship between Vue.js outside templates, here is the Context View about Vue.js framework, drawn by ourselves：
 
@@ -148,7 +148,7 @@ Vue - The Progressive Front-end Framework
 
 ### Brief Explanation about the figure
 
-​	As a progressive javascript framework, Vue.js is supposed to use javascript, html, css language to achieve the visual effect. Due to the markup language, this framework can be run on Windows, Mac OS, Linux to display the front end, which makes it become very popular in the developer. You can see from the Vue.js [readme.md](https://github.com/vuejs/vue/blob/dev/README.md) to check that there are many supporters, couple of them in China are Greekbang and GITEE.COM, just because the main developer Evan You is a ethnic Chinese. The Chinese language support in the forum is very well. There are many learners and developers in the formal forum to answer the issues and come up with some ideas. Vue.js has lots of combine framework, like the `BV`, the `Muse UI`, the `Vuetify.js` and so on. They improve the Vue.js performance and add some additional function towards the framework.
+​	As a progressive javascript framework, Vue.js is supposed to use javascript, html, css language to achieve the visual effect. Due to the markup language, this framework can be run on Windows, Mac OS, Linux to display the front end, which makes it become very popular in the developer. You can see from the Vue.js [readme.md](https://github.com/vuejs/vue/blob/dev/README.md) to check that there are many supporters, couple of them in China are Greekbang and GITEE.COM, just because the main developer Evan You is a ethnic Chinese. The Chinese language support in the forum is very well. There are many learners and developers in the formal forum to answer the issues and come up with some ideas. Vue.js has lots of combine framework, like the `BV`, the `Muse UI`, the `Vuetify.js` and so on.[[5]](#references) They improve the Vue.js performance and add some additional function towards the framework.
 
 ### Platform and Dependency
 
@@ -173,7 +173,7 @@ Vue - The Progressive Front-end Framework
 
 ### Codeline Models
 
-​	This section will explain how the directory of Vue.js is structured and coordinated via configuration management and how it is built and tested regularly. The overall structure of the directory hierarchy of Vue.js is organized as follows.[[4]](#references)
+​	This section will explain how the directory of Vue.js is structured and coordinated via configuration management and how it is built and tested regularly. The overall structure of the directory hierarchy of Vue.js is organized as follows.[[6]](#references)
 
 **Table-** *source code structure of Vue.js*
 
@@ -210,7 +210,7 @@ Here are the subdirectories of `/src`
 
 ### Concurrency Viewpoint
 
-​	The concurrency viewpoint describes the concurrency structure of the system, mapping functional elements to concurrency units to clearly identify the parts of the system that can execute concurrently, and shows how this is coordinated and controlled.This involves defining the parts of the system that can run at the same time and how this is controlled (e.g., defining how the system’s functional elements are packaged into operating system processes and how the processes coordinate their execution). It is depicted via system-level concurrency modesl and state models.[[5]](#references)
+​	The concurrency viewpoint describes the concurrency structure of the system, mapping functional elements to concurrency units to clearly identify the parts of the system that can execute concurrently, and shows how this is coordinated and controlled.This involves defining the parts of the system that can run at the same time and how this is controlled (e.g., defining how the system’s functional elements are packaged into operating system processes and how the processes coordinate their execution). It is depicted via system-level concurrency modesl and state models.[[7]](#references)
 
 **Figure-** *operating mechanism diagram of Vue.js*
 ![operating mechanism diagram of Vue.js](http://jbcdn2.b0.upaiyun.com/2018/10/dff999209d238b33e224fa20f0ee606b.png)
@@ -253,7 +253,7 @@ From the View side, the DOM Listeners tool in the ViewModel will help us monitor
 
 ### Declarative Rendering ###
 
-​	The following picture show the specific details about how the rendering flow works. In fact, up to the Vue.js 2.0 version, it use the Declarative & Reactive Rendering to implement the visual effect. To be more specific, the State component receive the information(request) from the User Input, and then render the corresponding View component. View in this way is just a declarative mapping from the state. However, it can interact as the front end with the User and pass the reactive request to the back end again.
+​	The following picture show the specific details about how the rendering flow works. In fact, up to the Vue.js 2.0 version, it use the Declarative & Reactive Rendering to implement the visual effect. To be more specific, the State component receive the information(request) from the User Input, and then render the corresponding View component. View in this way is just a declarative mapping from the state. However, it can interact as the front end with the User and pass the reactive request to the back end again.[[8]](#reference)
 
 ![](./images/Rendering.png)
 
@@ -381,5 +381,8 @@ Here is the Evolution details of Vue:
 1. [Vuejs official guide](https://cn.vuejs.org/v2/guide/)
 2. [Why to Vue.js and What It Can Do for Your Company](https://polcode.com/blog/why-vue-js-and-what-it-can-for-your-company/)
 3. [Comparison to other frameworks](https://cn.vuejs.org/v2/guide/comparison.html)
-4. [Vue.js Contributing Guide](https://github.com/vuejs/vue/blob/v2.5.17-beta.0/.github/CONTRIBUTING.md#project-structure)
-5. [Operating Machanism of Vue.js](http://web.jobbole.com/95292/)
+4. [Software Systems Architecture](https://www.viewpoints-and-perspectives.info/home/viewpoints/)
+5. [25+ Best Vue.Js Frameworks](https://cssauthor.com/vuejs-frameworks/)
+6. [Vue.js Contributing Guide](https://github.com/vuejs/vue/blob/v2.5.17-beta.0/.github/CONTRIBUTING.md#project-structure)
+7. [Operating Machanism of Vue.js](http://web.jobbole.com/95292/)
+8. [Next Vue.js 2.0](https://speakerdeck.com/kazupon/next-vue-dot-js-2-dot-0)
