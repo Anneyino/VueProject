@@ -173,7 +173,7 @@ Vue - The Progressive Front-end Framework
 
 ### Codeline Models
 
-​	This section will explain how the directory of Vue.js is structured and coordinated via configuration management and how it is built and tested regularly. The overall structure of the directory hierarchy of Vue.js is organized as follows.
+​	This section will explain how the directory of Vue.js is structured and coordinated via configuration management and how it is built and tested regularly. The overall structure of the directory hierarchy of Vue.js is organized as follows.[[4]](#references)
 
 **Table-** *source code structure of Vue.js*
 
@@ -210,7 +210,7 @@ Here are the subdirectories of `/src`
 
 ### Concurrency Viewpoint
 
-​	The concurrency viewpoint describes the concurrency structure of the system, mapping functional elements to concurrency units to clearly identify the parts of the system that can execute concurrently, and shows how this is coordinated and controlled.This involves defining the parts of the system that can run at the same time and how this is controlled (e.g., defining how the system’s functional elements are packaged into operating system processes and how the processes coordinate their execution). It is depicted via system-level concurrency modesl and state models.
+​	The concurrency viewpoint describes the concurrency structure of the system, mapping functional elements to concurrency units to clearly identify the parts of the system that can execute concurrently, and shows how this is coordinated and controlled.This involves defining the parts of the system that can run at the same time and how this is controlled (e.g., defining how the system’s functional elements are packaged into operating system processes and how the processes coordinate their execution). It is depicted via system-level concurrency modesl and state models.[[5]](#references)
 
 **Figure-** *operating mechanism diagram of Vue.js*
 ![operating mechanism diagram of Vue.js](http://jbcdn2.b0.upaiyun.com/2018/10/dff999209d238b33e224fa20f0ee606b.png)
@@ -381,4 +381,5 @@ Here is the Evolution details of Vue:
 1. [Vuejs official guide](https://cn.vuejs.org/v2/guide/)
 2. [Why to Vue.js and What It Can Do for Your Company](https://polcode.com/blog/why-vue-js-and-what-it-can-for-your-company/)
 3. [Comparison to other frameworks](https://cn.vuejs.org/v2/guide/comparison.html)
-4. 
+4. [Vue.js Contributing Guide](https://github.com/vuejs/vue/blob/v2.5.17-beta.0/.github/CONTRIBUTING.md#project-structure)
+5. [Operating Machanism of Vue.js](http://web.jobbole.com/95292/)
